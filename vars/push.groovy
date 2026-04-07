@@ -4,4 +4,3 @@ def call(String imageName, String tag, String dockerHubUser){
   {
   sh "docker push ${dockerHubUser}/${imageName}/${tag}"
 }
-} 
